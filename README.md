@@ -12,7 +12,7 @@
 commands:
 
 ```
-$ composer require Techlets-dev/walee-tracking
+$ composer require walee-dev/walee-tracking
 $ php bin/magento setup:upgrade
 $ php bin/magento setup:di:compile
 $ php bin/magento setup:static-content:deploy
