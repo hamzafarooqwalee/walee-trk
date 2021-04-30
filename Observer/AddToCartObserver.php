@@ -81,7 +81,7 @@ class AddToCartObserver implements ObserverInterface
     $vars['type'] = 'magento';
     $vars['domain'] = $_SERVER['SERVER_NAME'];
     $payload = json_encode( $vars );
-    $postUrl = "https://influencersofpakistan.com".$url;
+    $postUrl = "https://api.app.walee.pk".$url;
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL,$postUrl);
     curl_setopt($ch, CURLOPT_POST, 1);
